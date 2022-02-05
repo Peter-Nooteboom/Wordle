@@ -1,7 +1,7 @@
-![Wordle Solutions Analysis](https://imgur.com/5gtzHgN.jpg)
-
 # Wordle Solutions Analysis
 ---
+
+![Wordle Solutions Analysis](https://imgur.com/5gtzHgN.jpg)
 
 In this project I analyzed the Wordle solutions dictionary, and provided 8 insights and visualizations to help others win the game in fewer moves.
 
