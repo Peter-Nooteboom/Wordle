@@ -1,2 +1,2 @@
 # Wordle
-Wordle Solution Analysis
+Wordle Solutions Analysis
