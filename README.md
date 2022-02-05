@@ -1,24 +1,23 @@
 # Wordle Solutions Analysis
-Wordle Solutions Analysis
 ---
 
 In this project I analyzed the Wordle solutions dictionary, and provided 8 insights and visualizations to help others win the game in fewer moves.
 
 ## What is Wordle?
 
-Game Premise: If you spent any time on the internet in early 2021, you have probably heard of Wordle. Wordle is a word game with one puzzle per day. Each puzzle shares a single 5-letter solution for every player. A player is given 6 chances to guess the solution word. Each guess is accompanied with feedback to direct the player closer to the correct answer. If a correct letter is guessed in the correct position, the letter turns green. If a correct letter is guessed, but it is in an incorrect position, the letter turns yellow. The goal is to find the solution word in as few guesses as possible. Here is an example of what a few of the puzzles look like:
+**Game Premise:** If you spent any time on the internet in early 2021, you have probably heard of Wordle. Wordle is a word game with one puzzle per day. Each puzzle shares a single 5-letter solution for every player. A player is given 6 chances to guess the solution word. Each guess is accompanied with feedback to direct the player closer to the correct answer. If a correct letter is guessed in the correct position, the letter turns green. If a correct letter is guessed, but it is in an incorrect position, the letter turns yellow. The goal is to find the solution word in as few guesses as possible. Here is an example of what a few of the puzzles look like:
 
 
 ## Project Summary
 
-Problem: Given the viral trajectory the game has taken, players are looking to up their game. With only 6 chances to win, it can be difficult to make the best possible guesses without cheating. What strategies can people use to help them choose ideal words, and win the game more quickly?
+**Problem:** Given the viral trajectory the game has taken, players are looking to up their game. With only 6 chances to win, it can be difficult to make the best possible guesses without cheating. What strategies can people use to help them choose ideal words, and win the game more quickly?
 
-Goal: Wordle was programmed in a way where there is a set solutions dictionary of 2315 words. Each day one of these words is the correct solution. For a player, looking at these answers would clearly be considered cheating. My goal is to provide insights about this list using data analysis. From this, people will be able to make more informed guesses without directly cheating.
+**Goal:** Wordle was programmed in a way where there is a set solutions dictionary of 2315 words. Each day one of these words is the correct solution. For a player, looking at these answers would clearly be considered cheating. My goal is to provide insights about this list using data analysis. From this, people will be able to make more informed guesses without directly cheating.
 
 
 ## Data
 
-Wordle has a built in dictionary of predetermined solutions. The 2315 words in this dictionary were scraped from the Wordle site. A copy of this list can also be found on Kaggle.
+Wordle has a built in dictionary of predetermined solutions. The 2315 words in this dictionary were scraped from the Wordle site. A copy of this list can also be found on [Kaggle](https://www.kaggle.com/bcruise/wordle-valid-words).
 
 
 ## 1. Letter Frequency
@@ -79,5 +78,5 @@ The present analyses revealed several relevant insights that can be leveraged to
 
 ---
 
-If you enjoyed this project, please consider following me on Twitter and Linkedin.
+If you enjoyed this project, please consider following me on [Twitter](https://twitter.com/Peter_Nooteboom) and [Linkedin](https://www.linkedin.com/in/peter-nooteboom/).
 
