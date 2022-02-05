@@ -1,4 +1,4 @@
-![Wordle Solutions Analysis](https://imgur.com/5gtzHgN)
+![Wordle Solutions Analysis](https://imgur.com/5gtzHgN.jpg)
 
 # Wordle Solutions Analysis
 ---
@@ -8,7 +8,7 @@ In this project I analyzed the Wordle solutions dictionary, and provided 8 insig
 ## What is Wordle?
 
 **Game Premise:** If you spent any time on the internet in early 2021, you have probably heard of Wordle. Wordle is a word game with one puzzle per day. Each puzzle shares a single 5-letter solution for every player. A player is given 6 chances to guess the solution word. Each guess is accompanied with feedback to direct the player closer to the correct answer. If a correct letter is guessed in the correct position, the letter turns green. If a correct letter is guessed, but it is in an incorrect position, the letter turns yellow. The goal is to find the solution word in as few guesses as possible. Here is an example of what a few of the puzzles look like:
-![Wordle Puzzle Examples](https://imgur.com/KmzZoVz)
+![Wordle Puzzle Examples](https://imgur.com/KmzZoVz.jpg)
 
 ## Project Summary
 
@@ -27,7 +27,7 @@ Wordle has a built in dictionary of predetermined solutions. The 2315 words in t
 One of the first strategies that someone might consider is guessing a word that includes the most common letters in English. Doing so gives you the best chance of getting a correct letter. The key to not wasting Wordle guesses is using common letters. However, letter commonness in the actual Wordle solution dictionary is slightly different than regular English.
 
 As can be seen below, in the set of Wordle solutions, vowels are very common. In fact, all of them are in the top 50% of letters, even when including Y. In terms of consonants, R, T, L, S, N are the most common, and Z, X, Q, &, J are very rare. In general, guessing words that contain letters towards the left of the plot will give you a better chance of getting correct letters. Additionally, if you are basing your guesses purely on letter frequency, a great starting word would be ROATE.
-![Wordle Letter Frequency](https://imgur.com/batM1hK)
+![Wordle Letter Frequency](https://imgur.com/batM1hK.jpg)
 
 ## 2. Vowel Frequency
 
