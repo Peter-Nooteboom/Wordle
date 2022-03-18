@@ -1,7 +1,7 @@
 # Wordle Solutions Analysis
 ---
 
-![Wordle Solutions Analysis](https://imgur.com/5gtzHgN.jpg)
+![Wordle Solutions Analysis](https://i.imgur.com/dATSW7Y.png)
 
 In this project I analyzed the Wordle solutions dictionary, and provided 8 insights and visualizations to help others win the game in fewer moves.
 
@@ -29,7 +29,7 @@ One of the first strategies that someone might consider is guessing a word that 
 
 As can be seen below, in the set of Wordle solutions, vowels are very common. In fact, all of them are in the top 50% of letters, even when including Y. In terms of consonants, R, T, L, S, N are the most common, and Z, X, Q, &, J are very rare. In general, guessing words that contain letters towards the left of the plot will give you a better chance of getting correct letters. Additionally, if you are basing your guesses purely on letter frequency, a great starting word would be ROATE.
 
-![Wordle Letter Frequency](https://imgur.com/batM1hK.jpg)
+![Wordle Letter Frequency](https://i.imgur.com/eodUz9K.png)
 
 ## 2. Vowel Frequency
 
@@ -38,7 +38,7 @@ Given that most English words have a vowel in them, it may not be all that surpr
 Whether you count Y as a vowel or not, most words in the Wordle solutions dictionary have two vowels, followed by one vowel as the second most frequent, and three vowels in third place. Only a handful of solution words contain four or zero vowels, and none have five vowels. With that in mind, once you have revealed one or two vowels, you will probably want to focus on guessing consonants for most of your other letters.
 
 
-![Wordle Vowel Frequency](https://imgur.com/fyEaFIj.jpg)
+![Wordle Vowel Frequency](https://i.imgur.com/vqkpJvG.png)
 
 ## 3. Top Letters in Each Position
 
@@ -46,7 +46,7 @@ Now that we have some understanding of what letters and vowels are most frequent
 
 As mentioned previously, vowels are very common. However, that dominance primarily takes place in positions two and three. Additionally, E remains common in positions four and five. Y is also common, but only in the fifth spot. The first position is highly dominated by consonants, with S being by far the most frequent. This shows that even with a single set of five letters, the arrangement of those letters matters. For example, earlier I identified ROATE as a good first guess given the overall frequency of its letters. However, those same letters could also form ORATE. That said, this would be a marginally worse word given that O is more common in the second position over R.
 
-![Wordle Positional Frequency](https://imgur.com/OnzOj0c.jpg)
+![Wordle Positional Frequency](https://i.imgur.com/v8ggjxM.png)
 
 ## 4. Most Common Letter Positions
 
@@ -54,7 +54,7 @@ Taking the investigation of letter frequency one step further, we can also look 
 
 Every letter has a position where it is most frequent. Additionally, almost every letter has at least some chance of appearing in any of the positions. For example, R appears fairly evenly across the board. However, for some, the distribution is more skewed. For letters like Y, it is best off placed at the end of the word when used. Additionally, S does not occur very frequently in position 5. In fact, a deeper look at the data reveals that there are no plural S's in the solutions dictionary.
 
-![Wordle Common Letter Positions](https://imgur.com/MrUctn7.jpg)
+![Wordle Common Letter Positions](https://i.imgur.com/Pj6UiAc.png)
 
 ## 5. Commonly Repeated Letters
 
@@ -62,7 +62,7 @@ One additional challenge that Wordle poses is the possibility of double letters 
 
 Vowels are commonly repeated, with E standing out above the rest. The most commonly repeated consonants are L, R, T, and S. In an instance where a repeated letter seems probable, these are the most likely suspects.
 
-![Wordle Repeated Letters](https://imgur.com/44yzeKq.jpg)
+![Wordle Repeated Letters](https://i.imgur.com/nyuiUm5.png)
 
 ## 6. Average Unique Letter Count
 
@@ -72,20 +72,20 @@ About 75% of solution words have five unique letters (no repeats). About 30% hav
 
 Once a couple of letters are correctly guessed, it may be difficult to know what other letters to test next. The following plot shows the frequency of each letter given a particular "correct" letter (along the top. For example, if a Green Q has identified, U's are extremely common as an additional letter in that word.
 
-![Wordle Unique Letters](https://imgur.com/qYGgBhV.jpg)
+![Wordle Unique Letters](https://i.imgur.com/yPSCnCt.png)
 
 ## 7. Related Letters
 
 Once a couple of letters are correctly guessed, it may be difficult to know what other letters to test next. The following plot shows the frequency of each letter given a particular "correct" letter (along the top. For example, if a Green Q has identified, U's are extremely common as an additional letter in that word.
 
-![Wordle Related Letters](https://imgur.com/OgWSB28.jpg)
+![Wordle Related Letters](https://i.imgur.com/sxzF2WR.png)
 
 ## 8. Parts of Speech
 Beyond the letter arrangement of each guess, the meaning and part of speech of the words can also be considered. The following plot shows the percentage of words that can be classified as nouns, verbs, adjectives, and adverbs. Keep in mind that a single word can be classified as multiple parts of speech.
 
 A little over 75% of the words in the Wordle solutions list can be classified as nouns. Slightly over 45% can be classified as adjectives. About 25% of them can be classified as adjectives, and under 10% as adverbs. Given this, guessing nouns and verbs is the most likely strategy to lead to a correct answer.
 
-![Wordle Parts of Speech](https://imgur.com/sEvOuMf.jpg)
+![Wordle Parts of Speech](https://i.imgur.com/3TW4hWI.png)
 
 ## Conclusion
 
